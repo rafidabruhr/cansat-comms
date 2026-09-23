@@ -1,31 +1,18 @@
 <div align="center">
-
-```
-   ▄████████    ▄████████ ███▄▄▄▄      ▄████████ ▄██   ▄      ▄████████  ▄██████▄     ▄▄▄▄███▄▄▄▄    ▄▄▄▄███▄▄▄▄   ▄██████▄
-  ███    ███   ███    ███ ███▀▀▀██▄   ███    ███ ███   ██▄   ███    ███ ███    ███  ▄██▀▀▀███▀▀▀██▄▄██▀▀▀███▀▀▀██▄███    ███
-  ███    █▀    ███    ███ ███   ███   ███    █▀  ███▄▄▄███   ███    ███ ███    ███  ███   ███   ██████   ███   ██████    █▀
-  ███         ▄███▄▄▄▄██▀ ███   ███   ███        ▀▀▀▀▀▀███   ███    ███ ███    ███  ███   ███   ██████   ███   ██████
-▀███████████ ▀▀███▀▀▀▀▀   ███   ███ ▀███████████ ▄██   ███ ▀███████████ ███    ███  ███   ███   ██████   ███   ██████  █████
-         ███ ▀███████████ ███   ███          ███ ███   ███   ███    ███ ███    ███  ███   ███   ██████   ███   ██████    ███
-   ▄█    ███   ███    ███ ███   ███    ▄█    ███ ███   ███   ███    ███ ███    ███  ███   ███   ██████   ███   ██████    ███
- ▄████████▀    ███    ███  ▀█   █▀   ▄████████▀   ▀█████▀    ███    █▀   ▀██████▀    ▀█   ███   █▀  ▀█   ███   █▀  ▀██████▀
-                ███    ███
-```
-
-### 📡 a can-sized satellite's only way of phoning home 📡
-
-*Two programs. One radio link. Zero excuses for lost telemetry.*
-
+<img src="assets/nasa-logo.png" height="120" alt="NASA"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/cansat-logo.png" height="120" alt="CanSat Competition — American Astronautical Society">
+ 
+*CanSat Payload-GroundStation Communications Systems*
+ 
 [![Payload](https://img.shields.io/badge/payload-Arduino%20C%2B%2B-00979D?style=for-the-badge&logo=arduino&logoColor=white)](./payload.ino)
 [![Ground Station](https://img.shields.io/badge/ground%20station-Python%203-3776AB?style=for-the-badge&logo=python&logoColor=white)](./ground_station.py)
 [![Radio](https://img.shields.io/badge/radio-XBee%20%2F%20ZigBee%20API-8A2BE2?style=for-the-badge)](#-the-protocol)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge)](./LICENSE)
-
+ 
 </div>
-
 ---
 
-## 🛰️ What is this, actually?
+
+## Information
 
 Picture a soda-can-sized satellite falling out of the sky (on purpose, gently, under a parachute). It has no cell signal, no Wi-Fi, no cry for help beyond a **900 MHz whisper**. This repo is that whisper — and the ears on the ground listening for it.
 
